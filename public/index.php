@@ -1,3 +1,5 @@
 <?php
-    echo "PHP MVC framework"
+    require_once '../app/bootloader.php';
+
+    $init = new Core;
 ?>
